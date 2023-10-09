@@ -1,0 +1,45 @@
+1. Discusión Grupal sobre Experiencias Personales
+
+Objetivo: Reflexionar sobre el impacto del rendimiento de las aplicaciones en la experiencia del usuario y la percepción de marca.
+
+Instrucciones:
+
+a. Discute con tu grupo sobre experiencias que hayan tenido con aplicaciones (web o móviles) que mostraron un buen o mal rendimiento.
+
+b. Dentro de tu discusión considera:
+
+¿Cómo se sintieron durante la experiencia?
+
+¿Influyó esta experiencia en su percepción sobre la marca o aplicación?
+
+¿Qué hubieran mejorado o mantenido?
+
+2. Estudio de Caso sobre Problemas de Rendimiento
+
+Objetivo: Analizar un caso real y entender las implicaciones de no realizar pruebas de rendimiento adecuadas.
+
+Instrucciones:
+
+a. Lee el siguiente escenario: Durante el evento de "Black Friday", una tienda en línea muy popular experimentó caídas constantes del servidor y tiempos de carga extremadamente largos, afectando las ventas y la satisfacción del cliente.
+
+b. Con base en el escenario, responde las siguientes preguntas:
+
+¿Cuáles crees que fueron las causas principales del problema?
+
+Las principales causas que creemos que pudieron afectar fueron la falta de optimizacion en el codigo, la falta de espacio en el 
+servidor, condujo a la saturacion del mismo.
+
+¿Qué impacto crees que tuvo este problema en la empresa y los clientes?
+
+El impacto negativo en la empresa que encontramos es la perdida inmediata en ventas, ademas de la perdida de confianza en clientes en 
+futuras compras. Posibles problemas legales con errores o bugs en compras. 
+
+¿Qué soluciones propondrías?
+
+Optimizar el servido, agrandar el mismo para soportar el flujo de gente, realizar pruebas de estres con estimacion en la cantidad del flujo de gente recibido en experiencias anteriores. 
+
+¿Cómo podrían haberse anticipado y evitado estos problemas?
+
+La forma de anticiparte a estas situaciones podria ser a traves de la realizacion de filas virtuales, en la cual se limite el acceso de compra a cirtos grupos de usuarios para la correcta administracion del stock y el flujo de usuarios.
+Algo que pueden hacer el limitar la cantidad de peticiones, como cuando haces mas de 100 clicks te dice "hiciste muchas peticiones en poco tiempo, espera un rato y vuelve a intentarlo mas tade", me pasa mucho cuando leo en el celu porque leo rapido.
+
