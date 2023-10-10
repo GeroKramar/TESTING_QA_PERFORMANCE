@@ -1,0 +1,79 @@
+Instrucciones: 
+a. Imagina que estás a cargo de pruebas de rendimiento para una nueva aplicación de comercio electrónico. 
+b. Define tres objetivos clave de rendimiento para la aplicación. 
+- Que la latencia de la pagina no sea muy alta ( pin muy alto entre microservices)
+- soportar varios usuarios en simultaneo
+- que la pagina este optimizada para varios dispositivos
+- Soportar registro de varios usuarios en la base de datos
+
+Diseño de un Escenario de Prueba:
+Instrucciones:
+a. Considera la misma aplicación de comercio electrónico. 
+b. Diseña un escenario de prueba: ¿Qué acciones realizarán los usuarios? ¿Con qué frecuencia? ¿Cuántos usuarios simultáneos anticipas? 
+
+Los usuarios realizan un logueo en la pagina 
+los mismos lo haran de forma diaria
+anticipamos al rededor 100 usuarios en simultaneo cuando se envien ofertas.
+
+Evaluación de Herramientas:
+Instrucciones: 
+a. Investiga al menos tres herramientas populares de pruebas de rendimiento.
+b. Evalúa sus características, ventajas y desventajas. 
+Apache JMeter
+
+Descripción: JMeter es una herramienta open-source diseñada para cargar pruebas funcionales y medir el rendimiento. Inicialmente diseñada para pruebas de aplicaciones web, ahora puede utilizarse para otras funciones de pruebas.
+Características Principales:
+Capacidad de realizar pruebas de carga y rendimiento en diferentes tipos de servidores (Web, SOAP, LDAP, JMS, Mail, etc.).
+GUI intuitiva para diseño de pruebas.
+Soporta múltiples cargas y configuraciones.
+Capacidad para analizar y visualizar los resultados en diferentes formatos.
+
+LoadRunner de Micro Focus
+
+Descripción: LoadRunner es una herramienta de prueba de rendimiento ampliamente utilizada que permite simular miles de usuarios simultáneos y analizar el rendimiento de las aplicaciones bajo carga.
+Características Principales:
+Emulación virtual de usuarios (VUs) que actúan como usuarios reales hacia el sistema de destino.
+Soporta múltiples protocolos, incluidos HTTP/HTTPS, FTP, y más.
+Análisis en profundidad para identificar cuellos de botella.
+Integración con herramientas populares de CI/CD.
+
+Gatling
+
+Descripción: Gatling es una herramienta de prueba de rendimiento open-source, diseñada especialmente para pruebas de carga en aplicaciones web. Se destaca por su sintaxis de script clara y concisa.
+Características Principales:
+Utiliza un modelo de programación asincrónica, lo que le permite manejar miles de usuarios simultáneos en una sola máquina.
+La definición de las pruebas se realiza mediante scripts escritos en Scala.
+Genera informes de alto nivel con gráficos y métricas.
+Integración fácil con herramientas de CI/CD, como Jenkins. 
+
+Desventajas:
+
+Apache JMeter
+
+Interfaz gráfica puede consumir muchos recursos, afectando el rendimiento de la herramienta.
+No está diseñado para ejecuciones en paralelo (aunque se puede lograr con herramientas adicionales).
+Puede requerir habilidades técnicas avanzadas para escenarios complejos.
+
+LoadRunner de Micro Focus
+
+Costo elevado: Es una de las herramientas más caras del mercado.
+Curva de aprendizaje pronunciada para nuevos usuarios.
+Aunque soporta muchos protocolos, algunos pueden estar obsoletos o no ser tan relevantes para aplicaciones modernas.
+
+Gatling
+
+Requiere conocimiento de Scala para escribir y modificar scripts, lo que puede ser una barrera para aquellos no familiarizados.
+No tiene una interfaz gráfica de usuario para diseño y ejecución, todo es basado en código.
+Menos plugins y extensiones en comparación con JMeter.
+
+
+c. Decide cuál sería la mejor herramienta para la aplicación de comercio electrónico mencionada y justifica tu elección. 
+
+Jmater es la que usaria ya que si bien tiene sus desventajas la interfaz grafica es de gran ayuda y si bien hay que saberla utilizar, en relacion a las otras tecnologias, es menos compleja.
+
+Análisis de Reporte de Rendimiento:
+Instrucciones: 
+a. Debajo te compartimos un escenario de pruebas simulado. 
+b. Analiza el reporte, identifica áreas problemáticas y sugiere soluciones.
+
+ 
