@@ -1,0 +1,52 @@
+Análisis de Casos Reales:
+
+Instrucciones:
+
+Presentación de Casos:
+
+Caso A: Una empresa de comercio electrónico quería asegurarse de que su sitio web pudiera manejar el tráfico durante el Black Friday. Simularon el tráfico esperado de hasta 50,000 usuarios simultáneos navegando, agregando productos al carrito y realizando compras.
+Caso B: Un banco realizó pruebas en su aplicación móvil para ver cómo se comportaba con la cantidad habitual de usuarios realizando transacciones, consultas de saldo y pagos. Querían asegurarse de que todos los procesos funcionaran sin problemas durante el uso diario.
+Caso C: Una plataforma de streaming quería conocer sus límites. Simularon un número extremadamente alto de usuarios conectados simultáneamente, mucho más allá de sus máximas expectativas, para ver si el sistema fallaría y, de ser así, cómo lo haría.
+
+Analiza cada caso y discute con tus compañeros:
+
+¿Qué tipo de prueba (rendimiento, carga o stress) crees que se aplicó en cada caso?
+
+En el caso A comprendimos que se utilizaron pruebas de carga.
+En el caso B se utiliza un prueba de rendimiento
+En el caso C se utiliza una prueba de Stress
+
+¿Cuál fue el objetivo principal de la prueba?
+
+En el caso A el principal objetivo es probar el trafico de gente esperando al rededor de 50.000 usuarios simultaneos y que la pagina responda correctamente
+En el caso B el objetivo era asegurarse de que todos los procesos funcionaran sin problemas durante el uso diario.
+En el caso C el objetivo era fer si el sistema falla y que fallas suceden ante una carga extrema.
+
+Si fueras el encargado, ¿harías algo diferente?
+En el caso C haria varias pruebas antes de llegar al la de estress para buscar otras fallas.
+
+Simulación de Pruebas en un Entorno Controlado:
+
+Instrucciones:
+Accede a WebPageTest.
+Selecciona un sitio web de tu elección.
+En la página principal de WebPageTest:
+
+a. Prueba de Rendimiento: - Ingresa la URL del sitio web. - Selecciona una ubicación y un tipo de navegador. - Haz clic en "Start Test". - Una vez que la prueba esté completa, revisa los resultados, centrándote en métricas como el tiempo de carga total, el tiempo hasta el primer byte, el tiempo hasta que comienza a renderizarse y el tiempo hasta que la página está completamente cargada.
+
+b. Prueba de Carga: - Realiza la misma prueba anterior, pero esta vez, hazla varias veces consecutivamente para simular múltiples usuarios accediendo al sitio en un corto período de tiempo. - Observa si hay alguna variación significativa en los resultados en comparación con la primera prueba.
+
+c. Prueba de Stress - Piensa en cómo sería si miles de usuarios intentaran acceder al sitio simultáneamente. Con los datos que tienes de las pruebas anteriores, ¿dónde crees que podrían surgir problemas? ¿El servidor tardaría demasiado en responder? ¿Los recursos del sitio se cargarían lentamente?
+
+Registra todos los datos y observaciones recolectadas durante las pruebas.
+
+Crea un breve informe que incluya:
+Tipo de prueba realizada.
+Herramienta utilizada (WebPageTest).
+Observaciones y resultados.
+Recomendaciones o acciones sugeridas basadas en los resultados.
+
+Discusión en Grupo sobre Aplicación de Pruebas:
+Instrucciones: 
+a. Divídanse en grupos y discutan cuándo y por qué aplicarían cada tipo de prueba en un proyecto real. 
+b. Cada grupo debe presentar sus conclusiones y justificar sus decisiones.
